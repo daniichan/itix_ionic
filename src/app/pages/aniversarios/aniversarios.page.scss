@@ -1,0 +1,106 @@
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    overflow-y: auto !important;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        color: #5b5c65;
+        margin: 20px auto;
+    }
+
+    .search {
+        border-radius: 10px;
+        max-width: 90%;
+        margin: 25px auto;
+        border: 1px solid #cfd3d6;
+
+        ion-input {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            color: #5b5c85;
+            background: #fff;
+            padding: 20px;
+        }
+    }
+
+    .card {
+        &-month {
+            border-radius: 10px;
+            box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.2);
+            padding: 5px 0;
+
+            ion-icon {
+                margin: 0;
+                color: #00995D;
+
+                &:last-of-type {
+                    font-size: 20px;
+                }
+            }
+
+            ion-datetime {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                color: #00995D;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+
+        &-list {
+            border-radius: 10px;
+            box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.2);
+
+            ion-card-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #cfd3d6;
+                padding: 10px 0;
+                margin: 0 20px;
+
+                ion-card-title {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    color: #5b5c65;
+                }
+
+                h1 {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-size: 27px;
+                    color: #5b5c65;
+                    margin: 0;
+
+                    small {
+                        display: block;
+                        text-align: center;
+                        color: #00995d;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            ion-card-content {
+                padding: 0;
+
+                ion-item {
+                    min-height: 32px;
+                }
+                ion-label {
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    font-size: 15px;
+                    color: #1e1e1e;
+                }
+            }
+        }
+    }
+}
