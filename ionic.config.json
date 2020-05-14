@@ -1,0 +1,7 @@
+{
+  "name": "itix",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
