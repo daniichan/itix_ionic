@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 import { UnimedPageRoutingModule } from './unimed-routing.module';
 
 import { UnimedPage } from './unimed.page';
-import { ExploreContainerComponent } from './../explore-container/explore-container.component';
 
 @NgModule({
   imports: [
@@ -17,8 +16,7 @@ import { ExploreContainerComponent } from './../explore-container/explore-contai
     UnimedPageRoutingModule
   ],
   declarations: [
-    UnimedPage,
-    ExploreContainerComponent
+    UnimedPage
   ]
 })
 export class UnimedPageModule {}
