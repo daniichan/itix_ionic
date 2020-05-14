@@ -1,0 +1,27 @@
+ion-tabs {
+    ion-tab-bar {
+        height: 48px;
+        --background: #006b3e;
+        border: none;
+                
+        ion-tab-button {
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+
+            --color: #00bb6c;
+            --color-selected: #fff;
+            --ripple-color: #00bb6c;
+            
+            &.tab-selected {
+                font-weight: 700;
+                border-bottom: 2.5px solid #bed700;
+            }
+
+            ion-label {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
