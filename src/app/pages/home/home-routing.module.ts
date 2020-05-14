@@ -28,7 +28,6 @@ const routes: Routes = [
     redirectTo: '/home/aniversarios',
     pathMatch: 'full'
   }
-  
 ];
 
 @NgModule({

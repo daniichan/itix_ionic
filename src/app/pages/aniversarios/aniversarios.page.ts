@@ -21,6 +21,5 @@ export class AniversariosPage implements OnInit {
 
   ngOnInit() {
   }
-  
 
 }
